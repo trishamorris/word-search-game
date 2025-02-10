@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #ffe9a7;
+    color: black; /* text color */
+}
+
+/* font size of h1 element */
+.header h1 {
+    font-size: 40px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 25%; /* width of sidebar */
+    background-color: #ffe9a761;
+    padding: 20px;
+}
+
+.main {
+    flex: 75%; /* width of main content */
+    background-color: white;
+    padding: 20px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+.grid {
+    /* Prevent text from being highlighted by browser default text selection */
+    user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+
+    display: grid;
+    grid-template-columns: repeat(12, 30px);
+    grid-gap: 2px;
+    justify-content: left;
+    padding-left: 50px;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#words {
+    margin: 50px;
+    width: 300px;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+}
+
+.selected {
+    background-color: yellow;
+    color: black;
+}
+
+.found {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.6;
+}
+
+.complete {
+    background-color: #ded8c4;
+}
