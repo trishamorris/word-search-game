@@ -35,8 +35,7 @@ body {
     display: grid;
     grid-template-columns: repeat(12, 30px);
     grid-gap: 2px;
-    justify-content: left;
-    padding-left: 50px;
+    justify-content: center;
 }
 
 .cell {
@@ -58,6 +57,7 @@ body {
     background-color: whitesmoke;
     color: rgb(52, 42, 56);
     border-radius: 10px;
+    justify-content: center;
 }
 
 .selected {
