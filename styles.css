@@ -10,7 +10,7 @@ body {
     padding: 20px;
     text-align: center;
     background: #6f537a;
-    color: rgb(255, 231, 244); /* text color */
+    color: whitesmoke; /* text color */
 }
 
 /* font size of h1 element */
@@ -41,7 +41,7 @@ body {
 .cell {
     width: 30px;
     height: 30px;
-    background-color: transparent;
+    background-color: whitesmoke;
     text-align: center;
     line-height: 30px;
     border: 1px solid rgb(52, 42, 56);
