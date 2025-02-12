@@ -1,7 +1,7 @@
 /* WIN GAME */
 
 function gameOver() {
-    alert("Congratulations! You have found all the words!");    /* Change from alert */
+    alert("Congratulations! You have found all the words!");
 }
 
 export { gameOver };
