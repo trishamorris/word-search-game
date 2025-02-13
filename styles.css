@@ -12,13 +12,11 @@
 
 /* font size of h1 element */
 .header h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-family: Luminari, cursive;
 }
 
-.main {
-    display: flex;
-    flex-wrap: wrap;
+.body {
     background-color: rgb(252, 212, 224);
 }
 
@@ -32,7 +30,6 @@
     display: grid;
     grid-template-columns: repeat(12, 30px);
     grid-gap: 2px;
-    justify-content: center;
 }
 
 .cell {
@@ -61,7 +58,7 @@
 
 .selected {
     background-color: rgb(255, 215, 156);
-    color: black;
+    color: rgb(52, 42, 56);
 }
 
 .found {
