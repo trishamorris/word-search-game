@@ -16,7 +16,7 @@
 }
 
 .main {
-    flex: 1;
+    min-height: 100vh; /* Ensures it fills at least the viewport height */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
