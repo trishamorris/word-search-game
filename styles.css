@@ -23,6 +23,7 @@
     align-items: center;
     gap: 30px;
     background-color: rgb(252, 212, 224);
+    padding: 40px 20px; /* Add padding at the top and sides */
 }
 
 .grid {
