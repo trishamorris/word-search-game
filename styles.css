@@ -2,27 +2,24 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .header {
+    font-family: snell;
     padding: 20px;
     text-align: center;
-    background: #6f537a;
-    color: whitesmoke; /* text color */
+    background: #d7a6c0;
+    color: rgb(124, 84, 130); /* text color */
 }
 
 /* font size of h1 element */
 .header h1 {
     font-size: 40px;
+    font-family: Luminari, cursive;
 }
 
 .main {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(248, 213, 246);
-    padding: 20px;
+    background-color: rgb(252, 212, 224);
 }
 
 .grid {
@@ -48,6 +45,7 @@ body {
     border-radius: 5px;
     color: rgb(52, 42, 56);
     cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #words {
@@ -58,10 +56,11 @@ body {
     color: rgb(52, 42, 56);
     border-radius: 10px;
     justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .selected {
-    background-color: rgb(197, 129, 208);
+    background-color: rgb(255, 215, 156);
     color: black;
 }
 
