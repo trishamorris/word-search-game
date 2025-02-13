@@ -1,5 +1,3 @@
-import { gameOver } from "./gameOver.js";
-
 const allWords = ['KINNARD','KOSHI','GINGER','SONNY','SOUP','INCENSE','GRAPEFRUIT','TATTOO','MAGENTA','MOTEL','LIBRARY','PIANO','PICKLE','MARTINI','SOFA','POND','DAISY','SALMON','PLUSIE','YOGA','GLASSES','CIGARETTE','BEACH','MAKEUP','TULIP','VALLEY','COFFEE','WILLOW','TUNA','RICE']
 const selectedWords = new Set();
 let numWords = 6;
@@ -298,4 +296,9 @@ function resetSelection() {
     selectedCells.clear();
 }
 
-export { fillGrid, buildWordMap };
+function gameOver() {
+    alert("Congratulations! You have found all the words!");
+}
+
+fillGrid();
+buildWordMap();
